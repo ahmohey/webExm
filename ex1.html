@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silsuop</title>
+    <link rel="stylesheet" type="text/css" href="ex1.css">
+    <script>
+        function showImg() {
+            document.getElementById("pop").src = "img1.jpg"
+        }
+        function hideImg() {
+            document.getElementById("pop").src = ""
+        }
+        function clickHandler() {
+            alert('안녕하세요')
+        }
+    </script>
+</head>
+
+<body>
+
+
+
+
+
+
+    <h1 onmouseover="showImg()" onmouseout="hideImg()">Elvis Presley</h1>
+    <hr id="bom">
+    <div><img id="pop" src=""></div>
+    He was an American singer and actor. <br>
+    In November 1956, he made his film debut in <span>Love Me Tender</span>, <br>
+    He is often referred to as &lt;"<span>the King of Rock and Roll</span>"&gt;.
+    <hr>
+
+
+    <h2>Check</h2>
+    <form action="">
+        <fieldset>
+            <div style="margin: bottom 50px;">
+                <label> Suop<input type="checkbox" name="check"></label>
+                <label>unknow Suop<input type="checkbox" name="check"></label>
+                <label>Checked<input type="checkbox" name="check" checked></label>
+
+            </div>
+
+            <div>
+                <label>yep<input type="radio" name="hello" value="yep"></label>
+                <label>nope<input type="radio" name="hello" vlaue="nope"></label>
+                <label>default<input type="radio" name="hello" vlaue="any" checked></label>
+            </div>
+
+            <div>Chose one
+                <select name="whatThe" id="">
+                    <option value="Hell">Hl</option>
+                    <option value="Fuck">hh</option>
+                    <option value="What??">mm</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>ColorOne
+                <input type="color" value="#000000" onchange="document.body.style.color=this.value">
+            </div>
+
+            <div>date
+                <input type="date" value="2022-03-01">
+            </div>
+
+            <div>range
+                <input type="range" min="0" max="100" list="temperatures">
+                <datalist id="temperatures">
+                    <option value="0" label="Low">Hl</option>
+                    <option value="50" label="Medium">Hl</option>
+                    <option value="100" label="High">Hl</option>
+                </datalist>
+            </div>
+
+            <div>palceHolder
+                <input type="email" placeholder="PlaceHolder입니다.">
+                <input type="submit" value="submit">
+            </div>
+        </fieldset>
+    </form>
+
+    <h3>로그인 폼</h3>
+    <hr>
+    <form name="fm" method="get">
+        사용자 ID : <input type="text" size="15" value=""><br>
+        비밀 번호 : <input type="password" size="`15" value="">
+        <input type="submit" value="완료"><br>
+        자소서: <textarea cols="20" rows="5" placeholder="이곳에 자기소개 작성"></textarea>
+    </form>
+    <br>
+    <h3>booststrap</h3>
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+    <h2>DataList</h2>
+    나라: <input type="text" list="countries">
+    <datalist id="countries">
+        <option value="한국"></option>
+        <option value="영국"></option>
+        <option value="미국"></option>
+    </datalist>
+    <hr>
+
+    <h5>Button</h5>
+    <form action="">
+        검색 : <input type="text" size="10" value="">
+        <input type="button" value="Q1">
+        <button type="button">Q2</button><br>
+        submit : <input type="submit" value="전송1">
+        <button type="submit">전송2</button><br>
+        reset : <input type="reset" value="리셋1">
+        <button type="reset">리셋2</button><br>
+        이미지 : <input type="image" src="btn1.jpg" alt="이미지" onClick="clickHandler()" />
+        <button type="button" onclick="clickHandler()">
+            <img src="btn2.jpg" alt="이미지">
+        </button>
+
+    </form>
+    <hr>
+    보이기 : <input type="image" src="btn1.jpg" alt="이미지" onClick="showImg()" />
+    숨기기 : <input type="image" src="btn2.jpg" alt="이미지" onClick="hideImg()" />
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>머리1</th>
+                <th>머리2</th>
+                <th>머리3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="file:///C:/Users/user/Desktop/suop/ex2.html" target="_blank">이게머여1</a></td>
+                <td><a href="https://www.w3schools.com/html/html_table_borders.asp" target="_blank">이게머여2</a></td>
+                <td><a href="https://www.naver.com" target="_blank">이게머여3</a></td>
+            </tr>
+            <tr>
+                <td>이게되나1</td>
+                <td>이게되나2</td>
+                <td>이게되나3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>아랫줄?1</td>
+                <td>아랫줄?2</td>
+                <td>아랫줄?3</td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+</body>
+
+</html>
