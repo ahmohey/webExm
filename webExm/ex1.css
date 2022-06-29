@@ -1,0 +1,110 @@
+<<<<<<< HEAD
+/* Framework (getbootstrap.com)
+
+Libarary == Plugin */
+
+
+
+
+
+body {
+    background-color: blanchedalmond;
+    background-image: url(img2.jpg);
+    background-size: 50% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: brown;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: darkolivegreen;
+}
+
+#bom {
+    height: 50px;
+    border: solid grey;
+    background-color: gray;
+}
+
+span {
+    color: #aaff;
+    font-size: 30px;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 50%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tfoot {
+    color: darkblue;
+    border-radius: 10px;
+
+=======
+/* Framework (getbootstrap.com)
+
+Libarary == Plugin */
+
+
+
+
+
+body {
+    background-color: blanchedalmond;
+    background-image: url(img2.jpg);
+    background-size: 50% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: brown;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: darkolivegreen;
+}
+
+#bom {
+    height: 50px;
+    border: solid grey;
+    background-color: gray;
+}
+
+span {
+    color: #aaff;
+    font-size: 30px;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 50%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tfoot {
+    color: darkblue;
+    border-radius: 10px;
+
+>>>>>>> 3ec92b19bd8de55f147d7abc19a6d8ae2a824fb7
+}
